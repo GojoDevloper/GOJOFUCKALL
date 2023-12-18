@@ -89,14 +89,14 @@ if Config.BOT_TOKEN:
 if Config.BOT_TOKEN:
   @bot.on_message(filters.command(["start"]))
   async def hello(bot, message):
-    await message.reply_photo(photo=f"https://telegra.ph/file/fff2ee6f504bc061cb7d3.jpg",
-                              caption=f"ʜᴇʏ, ᴛʜɪs ɪs ᴀ sɪᴍᴘʟᴇ ʙᴀɴ ᴀʟʟ ʙᴏᴛ ᴡʜɪᴄʜ ɪs ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ʟɪʙᴇʀᴀʀʏ ᴛᴏ ʙᴀɴ ᴏʀ ᴅᴇsᴛʀᴏʏ ᴀʟʟ ᴛʜᴇ ᴍᴇᴍʙᴇʀs ғʀᴏᴍ ᴀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ɪɴ ᴀ ғᴇᴡ  sᴇᴄᴏɴᴅs!\n\nᴛᴏ ᴄʜᴇᴄᴋ ᴍʏ ᴀʙɪʟɪᴛʏ ɢɪʙ me ғᴜʟʟ ᴘᴏᴡᴇʀs\n\ntype /banall to see magic",
+    await message.reply_photo(photo=f"https://telegra.ph/file/45c6d38e197e15183f52e.jpg",
+                              caption=f"ʜᴇʏ, ɪ ᴀᴍ ᴀ ɢᴏᴊᴏ ꜰᴜᴄᴋᴇʀ ʙᴏᴛ. ɪ ᴍᴇᴀɴ ᴡʜᴏʟᴇ ɢᴄ ʙᴀɴᴀʟʟ ʙᴏᴛ . ᴡʜɪᴄʜ ɪꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ʟɪʙᴇʀᴀʀʏ ᴛᴏ ʙᴀɴ ᴏʀ ᴅᴇꜱᴛʀᴏʏ ᴀʟʟ ᴛʜᴇ ᴍᴇᴍʙᴇʀꜱ ꜰʀᴏᴍ ᴀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ɪɴ ᴀ ꜰᴇᴡ ꜱᴇᴄᴏɴᴅꜱ!\nɪ ᴀᴍ ꜱᴏ ᴘᴏᴡᴇʀ ꜰᴜʟʟ ᴛᴏ ᴄʜᴇᴀᴋ ᴍʏ ᴘᴏᴡᴇʀ ɢɪʙ ᴍᴇ ꜰᴜʟʟ ᴀᴅᴍɪɴ ʀɪɢʜᴛꜱ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʏᴘᴇ  /banall ᴛᴏ ꜱᴇᴇ ᴍᴀɢɪᴄ.\n۩ 𝚙𝚘𝚠𝚎𝚛𝚍 𝚋𝚢 𝚜𝚊𝚟𝚊𝚐𝚎 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 ۩",
 
 reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "★ᴅᴇᴠᴇʟᴏᴘᴇʀ★", url=f"https://t.me/kisanravi")
+                        "★ᴅᴇᴠᴇʟᴏᴘᴇʀ★", url=f"https://t.me/gojo_104")
                 ]
                 
            ]
