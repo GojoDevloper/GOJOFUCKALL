@@ -53,8 +53,7 @@ if Config.STRING_SESSION:
 if Config.STRING_SESSION:
   @ass.on_message(filters.command(["start"]))
   async def hello(bot: ass, message):
-    await message.reply("ʜᴇʏ, ᴛʜɪs ɪs ᴀ sɪᴍᴘʟᴇ ʙᴀɴ ᴀʟʟ ʙᴏᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.ᴡʜɪᴄʜ ɪs ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ʟɪʙᴇʀᴀʀʏ ᴀɴᴅ ɪ ʜᴀᴠᴇ ᴛʜᴇ ᴛᴏ ʙᴀɴ ᴏʀ ᴅᴇsᴛʀᴏʏ ᴀʟʟ ᴛʜᴇ ᴍᴇᴍʙᴇʀs ғʀᴏᴍ ᴀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ɪɴ ᴀ ғᴇᴡ  sᴇᴄᴏɴᴅs!\n\n ᴛᴏ ᴄʜᴇᴄᴋ ᴍʏ ᴀʙɪʟɪᴛʏ ɢɪʙ ғᴜʟʟ ᴘᴏᴡᴇʀs ᴛᴏ ᴛʜᴇ ʙᴏᴛ\n\n type /banall")
-
+    await message.reply("ʜᴇʏ,{0}\n◉ɪ ᴀᴍ ᴀ ʙᴀɴᴀʟʟ ʙᴏᴛ.!\n\n\n◉ɪ ᴀᴍ ꜱᴏ ᴘᴏᴡᴇʀ ꜰᴜʟʟ ᴛᴏ ᴄʜᴇᴀᴋ ᴍʏ ᴘᴏᴡᴇʀ ɢɪʙ ᴍᴇ ꜰᴜʟʟ ᴀᴅᴍɪɴ ʀɪɢʜᴛꜱ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʏᴘᴇ  /banall ᴛᴏ ꜱᴇᴇ ᴍᴀɢɪᴄ.")
 if Config.BOT_TOKEN:
   @bot.on_message(filters.command("banall"))
   async def _(bot, msg):
@@ -96,7 +95,7 @@ reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "★ᴅᴇᴠᴇʟᴏᴘᴇʀ★", url=f"https://t.me/gojo_104")
+                        "𝗢𝗪𝗡𝗘𝗥", url=f"https://t.me/gojo_104")
                 ]
                 
            ]
