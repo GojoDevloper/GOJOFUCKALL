@@ -89,8 +89,8 @@ if Config.BOT_TOKEN:
 if Config.BOT_TOKEN:
   @bot.on_message(filters.command(["start"]))
   async def hello(bot, message):
-    await message.reply_photo(photo=f"https://telegra.ph/file/45c6d38e197e15183f52e.jpg",
-                              caption=f"ʜᴇʏ, ɪ ᴀᴍ ᴀ ɢᴏᴊᴏ ꜰᴜᴄᴋᴇʀ ʙᴏᴛ. ɪ ᴍᴇᴀɴ ᴡʜᴏʟᴇ ɢᴄ ʙᴀɴᴀʟʟ ʙᴏᴛ . ᴡʜɪᴄʜ ɪꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ʟɪʙᴇʀᴀʀʏ ᴛᴏ ʙᴀɴ ᴏʀ ᴅᴇꜱᴛʀᴏʏ ᴀʟʟ ᴛʜᴇ ᴍᴇᴍʙᴇʀꜱ ꜰʀᴏᴍ ᴀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ɪɴ ᴀ ꜰᴇᴡ ꜱᴇᴄᴏɴᴅꜱ!\n\nɪ ᴀᴍ ꜱᴏ ᴘᴏᴡᴇʀ ꜰᴜʟʟ ᴛᴏ ᴄʜᴇᴀᴋ ᴍʏ ᴘᴏᴡᴇʀ ɢɪʙ ᴍᴇ ꜰᴜʟʟ ᴀᴅᴍɪɴ ʀɪɢʜᴛꜱ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʏᴘᴇ  /banall ᴛᴏ ꜱᴇᴇ ᴍᴀɢɪᴄ.\n\n۩ 𝚙𝚘𝚠𝚎𝚛𝚍 𝚋𝚢 𝚜𝚊𝚟𝚊𝚐𝚎 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 ۩",
+    await message.reply_photo(photo=f"https://telegra.ph/file/0dacefd89e48a69b57f2a.jpg",
+                              caption=f"ʜᴇʏ,{0}\n◉ɪ ᴀᴍ ᴀ ʙᴀɴᴀʟʟ ʙᴏᴛ.!\n\n\n◉ɪ ᴀᴍ ꜱᴏ ᴘᴏᴡᴇʀ ꜰᴜʟʟ ᴛᴏ ᴄʜᴇᴀᴋ ᴍʏ ᴘᴏᴡᴇʀ ɢɪʙ ᴍᴇ ꜰᴜʟʟ ᴀᴅᴍɪɴ ʀɪɢʜᴛꜱ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʏᴘᴇ  /banall ᴛᴏ ꜱᴇᴇ ᴍᴀɢɪᴄ.",
 
 reply_markup=InlineKeyboardMarkup(
             [
